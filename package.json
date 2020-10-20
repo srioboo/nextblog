@@ -1,6 +1,6 @@
 {
-  "version": "3.0.5",
-  "name": "gatsby-starter-lumen",
+  "version": "0.1.0",
+  "name": "sriobooblog",
   "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
   "main": "n/a",
   "scripts": {
@@ -16,8 +16,8 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/srioboo/sriobooblog",
+  "author": "srioboo <salrio74@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
