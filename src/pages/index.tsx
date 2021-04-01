@@ -12,12 +12,15 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
+				<h1>
+            Nothing About...
+          </h1>
+          {/*<h1>
             Hi, We're Next.js & Netlify<span className="fancy">.</span>
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
           <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+          <SocialList />*/}
         </div>
       </div>
       <style jsx>{`
