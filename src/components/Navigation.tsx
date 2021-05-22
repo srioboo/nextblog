@@ -2,10 +2,19 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Burger from "./Burger";
 import { useState } from "react";
+import PostList from "./PostList";
+import { PostContent, listPostContent } from "../lib/posts";
+import { listTags, TagContent } from "../lib/tags";
 
 export default function Navigation() {
   const router = useRouter();
   const [active, setActive] = useState(false);
+
+
+  /*const currentPage = {current:0, pages:1};
+	const posts: PostContent[] = listPostContent(2, 1); // TODO, obtener datos
+	const tags: TagContent[] = listTags();   // TODO, obtener datos*/
+
   return (
     <>
       <Burger active={active} onClick={() => setActive(!active)} />
@@ -28,6 +37,8 @@ export default function Navigation() {
             </Link>
           </li>
         </ul>
+				{/*{<PostList pagination={currentPage} posts={posts} tags={tags}/>}*/}
+
         <style jsx>
           {`
             .container {
