@@ -9,6 +9,8 @@ There are some boilerplate or tutorials for the combination of Next.js and Netli
 
 Next.js blogging template for Netlify has already implemented these standard features for building blogs with only using Next.js and Netlify stacks.
 
+prueba
+
 ## Demo
 
 Deploy on your environment by clicking here:
